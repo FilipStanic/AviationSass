@@ -1,0 +1,146 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+#header #tagline div, #header nav ul, #header #section {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+#header #section {
+  overflow: hidden;
+}
+
+#header {
+  background: #274f75;
+}
+#header #section {
+  height: 150px;
+  line-height: 150px;
+}
+#header #section div {
+  float: left;
+}
+#header #section div a {
+  display: block;
+}
+#header #section div a img {
+  vertical-align: middle;
+}
+#header #section span {
+  margin-top: 50px;
+  color: #fff;
+  display: block;
+  float: right;
+  line-height: 150px;
+}
+#header #section span p {
+  line-height: 18px;
+}
+#header #section span p:first-child {
+  margin-bottom: 15px;
+}
+#header nav {
+  background: #84BF0E;
+  border-bottom: 1px solid #c31408;
+}
+#header nav ul {
+  display: flex;
+}
+#header nav ul li a {
+  display: block;
+  padding: 12px 25px;
+  text-decoration: none;
+  color: #274f75;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  transition: background 0.3s;
+}
+#header nav ul li a:hover {
+  background: #fff;
+}
+#header nav ul li a:hover::after {
+  background: #c31408;
+}
+#header nav ul li a::after {
+  content: "";
+  background: transparent;
+  height: 6px;
+  width: 100%;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  transition: background 0.3s;
+}
+#header #tagline {
+  background: url("../images/bg-header2.jpg");
+  background-position-x: center;
+  min-height: 450px;
+}
+#header #tagline div {
+  padding-top: 105px;
+}
+#header #tagline h1 {
+  font-size: 60px;
+  font-family: "Arial";
+  font-weight: 700;
+  color: #274f75;
+  max-width: 445px;
+  line-height: 76px;
+  margin-bottom: 30px;
+}
+#header #tagline p {
+  font-family: "Arial", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: #274f75;
+  max-width: 340px;
+  line-height: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */

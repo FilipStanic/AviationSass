@@ -1,0 +1,11 @@
+$primary_color: #274f75;
+$nav_bg: #84BF0E;
+
+%container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+%clearFloat {
+    overflow: hidden;
+}
